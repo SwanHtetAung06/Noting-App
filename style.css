@@ -103,44 +103,56 @@ body {
     .note{
         position: relative;
         top: 15px;
-        left: 74px;
+        left:-8px;
     }
 }
 
 @media screen and (max-width:760px) {
     .note {
         position: relative;
-        left: 40px;
+        left: -40px;
     }
 }
 
 
 
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:675px) {
     .note {
         margin-right: 1.5em;
         position: relative;
-        left: 60px;
+        left: 30px;
         top: 15px;
     }
 }
 
+@media screen and (max-width:580px) {
+    .note{
+        position: relative;
+        left: -20px;
+    }
+}
 @media screen and (max-width:500px){
     .note{
         position: relative;
-        left: 10px;
+        left: -35px;
     }
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:460px) {
     .note{
         position: relative;
-        left: 85px;
+        left: 45px;
     }
 }
-@media screen and (max-width:380px){
+@media screen and (max-width:400px){
     .note{
         position: relative;
-        left: 70px;
+        left: -5px;
+    }
+}
+@media screen and (max-width:340px){
+    .note{
+        position: relative;
+        left: -23px;
     }
 }
